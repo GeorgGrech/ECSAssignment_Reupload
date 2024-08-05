@@ -1,0 +1,39 @@
+using Unity.Burst;
+using Unity.Entities;
+
+#ROOTNAMESPACEBEGIN#
+    [BurstCompile]
+    [UpdateInGroup(typeof(SimulationSystemGroup))]
+    public partial class #SCRIPTNAME# : SystemBase
+    {
+        [BurstCompile]
+        public override void OnCreate()
+        {
+            #NOTRIM#
+        }
+        
+        [BurstCompile]
+        public override void OnStartRunning()
+        {
+            #NOTRIM#
+        }
+
+        [BurstCompile]
+        public override void OnUpdate()
+        {
+            #NOTRIM#
+        }
+
+        [BurstCompile]
+        public override void OnStopRunning()
+        {
+            #NOTRIM#
+        }
+
+        [BurstCompile]
+        public override void OnDestroy()
+        {
+            #NOTRIM#
+        }
+    }
+#ROOTNAMESPACEEND#
